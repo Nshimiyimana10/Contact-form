@@ -13,9 +13,41 @@ body{
 
 .contact-form{
     display: flex;
-    width: 500px;
-    height:400px;
+    width: 700px;
+    height:500px;
     background-color: azure;
     align-items: center;
     justify-content: center;
+}
+
+.sub-container{
+    display: flex;
+    width: 500px;
+    height:400px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius:10px;
+}
+
+.submit{
+    width:470px;
+    height:20px;
+    background-color: green;
+    color:white;
+    border-radius: 4px;
+    border: none;
+}
+
+.email{
+    width:440px;
+    height:20px;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+.message{
+    width:440px;
+    height:40px;
+    border-radius: 4px;
+    border: 1px solid grey;
 }
