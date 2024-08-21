@@ -13,8 +13,8 @@ body{
 
 .contact-form{
     display: flex;
-    width: 700px;
-    height:500px;
+    width: 500px;
+    height:400px;
     background-color: azure;
     align-items: center;
     justify-content: center;
