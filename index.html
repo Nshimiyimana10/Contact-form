@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact form</title>
+    <link rel="stylesheet" href="index.css" />
+
+  </head>
+  <body>
+    <div class="contact-form">
+      <form action="contactForm.php" method="get">
+        <label for="firstName">First Name*</label><br />
+        <input type="text" class="first-name" name="firstName" />
+        <label for="Last Name">Last Name*</label>
+        <input type="text" class="last-name" name="Last Name" /><br />
+        <label for="email">Email adress*</label><br /><br />
+        <input type="text"class="email" name="email"value="Email adress"
+        /><br /><br />
+        <label for="Query-type">Query Type*</label><br />
+        <input type="text" class="enquiry" name="enquiry" />
+        <label for="Query-type">Query Type*</label>
+        <input type="text" class="enquiry" name="enquiry" /><br />
+        <label for="message">Message</label><br /><br />
+        <input type="text" class="message" name="message" /><br /><br />
+        <input type="checkbox" name="checkbox" />
+        <label for="checkbox">I consent to being contacted by the team</label
+        ><br /><br />
+        <input type="submit" class="submit" name="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>

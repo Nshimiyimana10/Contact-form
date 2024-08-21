@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.contact-form{
+    display: flex;
+    width: 700px;
+    height:500px;
+    background-color: azure;
+    align-items: center;
+    justify-content: center;
+}
