@@ -8,15 +8,15 @@ const checkbox = document.getElementById("checkbox");
 const query = document.getElementById("query");
 const email = document.getElementById("email");
 
-form.addEventListener('click', (e) => {
+button.addEventListener('click', (e) => {
   e.preventDefault();
   validateForm();
 })
 
 function validateForm(){
 
-  const lNameInput = firstName.value.trim();
-  const fNameInput = lastName.value.trim();
+  const lNameInput = lastName.value.trim();
+  const fNameInput = firstName.value.trim();
   const messageInput = message.value.trim();
   const result = document.getElementById("result");
   const checkboxInput = checkbox.checked;
@@ -27,8 +27,9 @@ function validateForm(){
   const Regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z0-9{2,4}$]/;
 
   //check first name
-  if(fNameInput === " "){
-    result.innerHTML = "please enter your first name"
+  if(fNameInput == ""){
+    result.innerHTML = "Please enter your first name"
+    result.style.color = "red"
     input.style.border = "1px solid red"
   }
   else{
@@ -51,8 +52,8 @@ function validateForm(){
   }
   
   //check last name
-  if(lNameInput === " "){
-    result.innerHTML = "please enter your last name"
+  if(lNameInput === ""){
+    result.innerHTML = "Please enter your last name"
     input.style.border = "1px solid red"
     result.style.color = 'red';
   }
