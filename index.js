@@ -22,7 +22,7 @@ function validateForm(){
   const checkboxInput = checkbox.checked;
   const queryBoxInput = query.checked;
   const queryButton = document.getElementsByClassName("query-btn");
-  const input = document.getElementsByTagName("input");
+  const input = document.querySelectorAll("input");
   const emailInput = email.value.trim();
   const Regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z0-9{2,4}$]/;
 
