@@ -8,7 +8,7 @@ const checkbox = document.getElementById("checkbox");
 const query = document.getElementById("query");
 const email = document.getElementById("email");
 
-button.addEventListener('click', (e) => {
+form.addEventListener('click', (e) => {
   e.preventDefault();
   validateForm();
 })
@@ -51,7 +51,7 @@ function validateForm(){
   }
   
   //check last name
-  if(lNameInput === ""){
+  if(lNameInput === " "){
     result.innerHTML = "please enter your last name"
     input.style.border = "1px solid red"
     result.style.color = 'red';
@@ -62,7 +62,7 @@ function validateForm(){
     result.style.color = 'blue'
   }
   //check message
-  if(messageInput === ""){
+  if(messageInput === " "){
     result.innerHTML = "Please leave a message here"
     input.style.border = "1px solid red"
     result.style.color = 'red';
