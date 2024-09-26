@@ -16,20 +16,20 @@
           <div class="form-input">
             <label for="firstName">First Name*</label>
             <input id="f-name" type="text" class="first-name" name="firstName" />
-            <h6 id="result"></h6>
+            <h6 id="error_firstname"></h6>
           </div>
   
           <div class="form-input">
             <label for="Last Name">Last Name*</label>
           <input id="l-name" type="text" class="last-name" name="Last Name" />
-          <h6 id="result"></h6>
+          <h6 id="error_lastname"></h6>
           </div>
         </div>
         
         <div class="form-input">
           <label for="email">Email adress*</label>
           <input id="email" type="text"class="email" name="email">
-          <h6 id="result"></h6>
+          <h6 id="error_email"></h6>
         </div>
         <div class="form-query">
           <label for="Query-type">Query Type*</label>
@@ -39,14 +39,14 @@
                 <input id="query" type="radio" class="enquiry" name="enquiry"/>
                 <h6>General enquiry</h6>
               </div>
-              <h6 id="result"></h6>
+              <h6 id="error_generalenquiry"></h6>
             </div>
            <div class="query">
             <div class="query-btn" id="support-btn">
               <input id="query" type="radio" class="enquiry" name="enquiry"/>
               <h6>Support type</h6>
             </div>
-            <h6 id="result"></h6>
+            <h6 id="error_supportype"></h6>
           </div>
           </div>
         </div>
@@ -59,7 +59,7 @@
        <div class="form-checkbox">
         <input id="checkbox" class="checkbox" type="checkbox" name="checkbox" />
          <h6>I consent to being contacted by the team</h6>
-         <h6 id="result"></h6>
+         <h6 id="error_message"></h6>
        </div>
        <div>
         <button type="button" id="button">SUBMIT</button>
